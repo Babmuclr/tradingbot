@@ -3,3 +3,4 @@
 *.csv
 *.png
 datas/tweet_data/*.txt
+twitter/twitterpass.txt
