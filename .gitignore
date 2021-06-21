@@ -1,6 +1,6 @@
 .vscode/
 .ipynb_checkpoints/
 *.csv
-*.png
+datas/etf_data/pic/*.png
 datas/tweet_data/*.txt
 twitter/twitterpass.txt
