@@ -31,9 +31,9 @@ li_tweet = ["USDJPY","EURUSD","GBPUSD","USDCHF","USDCAD","TRYUSD","AUDUSD","NZDU
 
 with open("/Users/takumiinui/Desktop/tradingbot/twitter/twitterpass.txt") as f:
     s = f.readlines()
-    consumer_key=s[0][:-2]
-    consumer_secret=s[1][:-2]
-    token=s[2][:-2]
+    consumer_key=s[0][:-1]
+    consumer_secret=s[1][:-1]
+    token=s[2][:-1]
     token_secret=s[3]
 
 auth = twitter.OAuth(consumer_key=consumer_key,

@@ -4,3 +4,4 @@
 datas/etf_data/pic/*.png
 datas/tweet_data/*.txt
 twitter/twitterpass.txt
+.DS_Store
